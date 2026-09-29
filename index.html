@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HaniMix</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#08090d;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.search{
+    font-size:25px;
+}
+
+.hero{
+    margin:10px 20px;
+    padding:25px;
+    border-radius:15px;
+    background:#181b24;
+}
+
+.hero h1{
+    font-size:30px;
+    margin:0 0 10px;
+}
+
+.hero p{
+    color:#bbb;
+    line-height:1.5;
+}
+
+.button{
+    display:inline-block;
+    padding:12px 20px;
+    background:#e50914;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+h2{
+    margin:25px 20px 15px;
+}
+
+.anime-list{
+    display:flex;
+    gap:15px;
+    overflow-x:auto;
+    padding:0 20px 20px;
+}
+
+.card{
+    min-width:130px;
+}
+
+.card img{
+    width:130px;
+    height:185px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card p{
+    margin:8px 0;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">HaniMix</div>
+    <div class="search">⌕</div>
+</header>
+
+<section class="hero">
+    <h1>Gade anime ou renmen yo</h1>
+
+    <p>
+        Dekouvri nouvo anime, nouvo epizòd
+        ak anpil lòt istwa sou HaniMix.
+    </p>
+
+    <a href="#" class="button">Eksplore</a>
+</section>
+
+<h2>Anime popilè</h2>
+
+<div class="anime-list">
+
+    <div class="card">
+        <img src="https://placehold.co/300x430/181b24/ffffff?text=Anime">
+        <p>Anime 1</p>
+    </div>
+
+    <div class="card">
+        <img src="https://placehold.co/300x430/181b24/ffffff?text=Anime">
+        <p>Anime 2</p>
+    </div>
+
+    <div class="card">
+        <img src="https://placehold.co/300x430/181b24/ffffff?text=Anime">
+        <p>Anime 3</p>
+    </div>
+
+</div>
+
+</body>
+</html>
